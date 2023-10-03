@@ -5,6 +5,7 @@ from flask import Flask, request, jsonify
 import model
 
 app = Flask(__name__)
+
 akshar = ''
 @app.route('/api/post_string', methods=['POST'])
 def post_string():
